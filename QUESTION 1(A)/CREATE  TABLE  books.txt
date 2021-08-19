@@ -1,0 +1,8 @@
+CREATE TABLE books(
+bookid INTEGER PRIMARY KEY,
+title TEXT,
+author TEXT,
+price REAL);
+INSERT INTO books VALUES (567,"Programming in C","Reema Thareja",499);
+INSERT INTO books VALUES (893,"Rudiments of Computer Science","Joyrup Bhattacharya",450);
+SELECT * FROM books;
